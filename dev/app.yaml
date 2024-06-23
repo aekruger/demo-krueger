@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: demo-krueger
-          image: andersonkrueger/kruegerpub:demo-krueger-1.0.0
+          image: andersonkrueger/kruegerpub:demo-krueger-1.1.0
           ports:
             - containerPort: 8080
           env:
