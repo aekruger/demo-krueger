@@ -29,8 +29,7 @@ spec:
     spec:
       containers:
         - name: demo-krueger
-          image: demo-krueger-api
-          imagePullPolicy: Never
+          image: andersonkrueger/krueger:demo-krueger-1.0.0
           ports:
             - containerPort: 8080
           env:
